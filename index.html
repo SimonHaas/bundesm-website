@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>BundesM</title>
+        <link href="./output.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar rounded-box shadow">
+            <div class="w-full md:flex md:items-center md:gap-2">
+              <div class="flex items-center justify-between">
+                <div class="navbar-start items-center justify-between max-md:w-full">
+                  <a href="#" aria-label="Homepage Link">
+                    <img src="Logo.svg" alt="BundesM Logo">
+                  </a>
+                  <div class="md:hidden">
+                    <button type="button" class="collapse-toggle btn btn-outline btn-secondary btn-sm btn-square" data-collapse="#logo-navbar-collapse" aria-controls="logo-navbar-collapse" aria-label="Toggle navigation" >
+                      <span class="icon-[tabler--menu-2] collapse-open:hidden size-4"></span>
+                      <span class="icon-[tabler--x] collapse-open:block hidden size-4"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <section class="bg-white dark:bg-gray-900">
+            <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+                <div class="mr-auto place-self-center lg:col-span-7">
+                    <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Bundesmessenger und Kubernetes für Ihre Behörde.</h1>
+                </div>
+                <div class="lg:mt-0 lg:col-span-5 lg:flex">
+                  <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Der <a href="https://messenger.bwi.de/bundesmessenger" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Bundesmessenger</a> ist <i>der</i> offizielle Messenger für deutsche Behörden.</p>
+                  <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"><a href="https://kubernetes.io" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Kubernetes</a> ist <i>die</i> technische Platform für moderne Anwendungen.</p>
+                </div>                
+            </div>
+        </section>
+          <section class="bg-white dark:bg-gray-900">
+              <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+                  <form action="https://formspree.io/f/xzzzagow" method="POST" class="space-y-8">
+                      <div>
+                          <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Ihre E-Mail</label>
+                          <input name="email" type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="max.m@mein-amt.de" required>
+                      </div>
+                      <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Ich bin interessiert</button>
+                  </form>
+              </div>
+            </section>
+    </body>
+    <footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
+      <div class="mx-auto max-w-screen-xl text-center">
+          <a href="#" class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
+            <img src="Logo.svg" alt="BundesM Logo">
+          </a>
+          <ul>
+          <li>
+                  <a href="https://www.simonhaas.eu/impressum.html" class="mr-4 hover:underline md:mr-6">Impressum</a>
+              </li>
+          </ul>
+      </div>
+    </footer>
+</html>
