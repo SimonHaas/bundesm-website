@@ -600,6 +600,10 @@ video {
   height: 1rem;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -879,12 +883,6 @@ video {
   --tw-ring-color: rgb(30 64 175 / var(--tw-ring-opacity, 1));
 }
 
-@media not all and (min-width: 768px) {
-  .max-md\:w-full {
-    width: 100%;
-  }
-}
-
 @media (min-width: 640px) {
   .sm\:w-fit {
     width: -moz-fit-content;
@@ -903,6 +901,14 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-12 {
+    height: 3rem;
+  }
+
+  .md\:w-auto {
+    width: auto;
   }
 
   .md\:items-center {
