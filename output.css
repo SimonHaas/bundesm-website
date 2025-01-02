@@ -600,8 +600,8 @@ video {
   height: 1rem;
 }
 
-.h-8 {
-  height: 2rem;
+.h-12 {
+  height: 3rem;
 }
 
 .w-full {
@@ -903,8 +903,8 @@ video {
     display: none;
   }
 
-  .md\:h-12 {
-    height: 3rem;
+  .md\:h-16 {
+    height: 4rem;
   }
 
   .md\:w-auto {
